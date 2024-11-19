@@ -7,9 +7,7 @@ export default function GuestLayout() {
 		return <Navigate to="/users"/>
 	}
 
-	return <div>
-	        <Link to="/login">Login</Link> | <Link to="/signup">Sign Up</Link> | <Link to="/users">Profile</Link>
-
-			<Outlet/>
-	</div>
+	return <>
+		<Outlet/>
+	</>
 }
